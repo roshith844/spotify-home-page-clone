@@ -15,9 +15,13 @@ header {
      align-items: center;
 }
 
+.spotify-logo {
+     margin-left: 102px;
+}
+
 .icon-logo {
-     width: 100px;
-     height: 100px;
+     width: 134px;
+     height: 42px;
 }
 
 .h-links {
@@ -25,6 +29,7 @@ header {
      display: flex;
      justify-content: center;
      align-items: center;
+     margin-right: 105px;
 }
 
 header a {
@@ -35,8 +40,13 @@ header a {
      padding: 16px;
 }
 
+header a:hover {
+     color: #1ed760;
+}
+
 .divider {
-     width: 5px;
-     height: 80%;
+     width: 1px;
+     height: 20px;
      background-color: white;
+     margin: 0px 18px;
 }
