@@ -5,7 +5,7 @@ body {
 
 body {
      font-family: spotify-circular, Helvetica, Arial, sans-serif;
-     height: 1000px;
+     height: 2000px;
 }
 
 header {
@@ -132,4 +132,35 @@ header a:hover {
      font-weight: 700;
      margin-left: 0px;
      margin-top: 5%;
+}
+
+/* card section */
+.image-1 {
+     background-image: url("https://i.scdn.co/image/ab671c3d0000f430678067184805befd38aa0f57");
+     width: 172px;
+     height: 172px;
+}
+
+.image-2 {
+     background-image: url("https://i.scdn.co/image/ab671c3d0000f430a6f822749d5c25c32ee31d66");
+     width: 172px;
+     height: 172px;
+}
+
+.image-3 {
+     background-image: url("https://i.scdn.co/image/ab671c3d0000f430eb43023b5332389f5094530d");
+     width: 172px;
+     height: 172px;
+}
+
+.image-4 {
+     background-image: url("https://i.scdn.co/image/ab671c3d0000f4309430062bc28461dc8fbde6bc");
+     width: 172px;
+     height: 172px;
+}
+
+.cards {
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
