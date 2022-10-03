@@ -5,7 +5,7 @@
 
 body {
      margin: 0;
-     height: 2000px;
+     height: 3000px;
 }
 
 header {
@@ -332,4 +332,16 @@ strong {
 
 .new-download:hover {
      transform: scale(1.05);
+}
+
+/* Footer */
+footer.full {
+     width: 100%;
+     height: 530px;
+     background-color: black;
+}
+
+.footer-logo {
+     width: 134px;
+     height: 42px;
 }
