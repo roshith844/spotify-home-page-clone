@@ -212,6 +212,15 @@ h2 {
      min-height: 600px;
      background-color: white;
      margin-top: 0px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+.all-questions {
+     width: 80%;
+     height: 100%;
 }
 
 .faq h2 {
@@ -220,7 +229,13 @@ h2 {
      padding: 45px;
 }
 
-span {
+hr {
+     height: 1px;
+     border: 0;
+     border-top: 1px solid rgb(226, 224, 224);
+}
+
+.question-heading {
      color: black;
      font-weight: bold;
      padding: 31px 0px;
@@ -228,10 +243,20 @@ span {
      display: block;
 }
 
-span::after {
+.question-heading:hover {
+     background-color: #f1f0f0;
+     text-decoration: underline;
+}
+
+
+.question-heading::after {
      float: right;
      right: 10%;
-     content: "+";
+     content: "+   ";
+}
+
+strong {
+     color: #117A37;
 }
 
 .slide {
@@ -241,6 +266,8 @@ span::after {
      overflow: hidden;
      text-align: left;
      transition: height .4s ease;
+
+
 }
 
 
@@ -253,3 +280,5 @@ span::after {
 #touch:checked+.slide {
      height: 300px;
 }
+
+/* FAQ section ENDS  */
