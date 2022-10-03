@@ -275,16 +275,25 @@ strong {
 
 }
 
-/*change class*/
-
-#touch {
+.touch {
      position: absolute;
      opacity: 0;
      height: 0px;
 }
 
-/* change id*/
-#touch:checked+.slide {
+#touch1:checked+.slide {
+     height: 300px;
+}
+
+#touch2:checked+.slide {
+     height: 300px;
+}
+
+#touch3:checked+.slide {
+     height: 300px;
+}
+
+#touch4:checked+.slide {
      height: 300px;
 }
 
