@@ -385,6 +385,7 @@ footer.full {
 
 footer .top {
      margin: 0;
+     height: 80%;
 }
 
 .footer-top-container {
@@ -423,4 +424,8 @@ footer .top {
 
 .link:hover {
      color: #1ed760;
+}
+
+footer .bottom {
+     height: 20%;
 }
