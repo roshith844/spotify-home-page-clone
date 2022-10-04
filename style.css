@@ -352,14 +352,40 @@ footer.full {
 }
 
 .imp-links {
+     display: flex; 
+     margin-top: 8.5%;
+     gap: 30px;
+}
+footer.top{
+    margin: 0;
+}
+.footer-top-container {
      display: flex;
-     justify-content: center;
-     align-items: center;
+     justify-content: space-between;
+     width: 80%;
+     margin: 0% 10%;
 
 }
 
-.footer-top-container {
+.link-item{
      display: flex;
-     justify-content: center;
-     align-items: center;
+     flex-direction: column;
+     padding: 10px;
+
+}
+.link-item a{
+     text-decoration: none;
+
+
+    
+}
+.link-item .heading{
+     color: #919496;
+     font-weight: 600;
+           font-size: 12px;
+}
+
+.link-item .link{
+     color: white;
+
 }
