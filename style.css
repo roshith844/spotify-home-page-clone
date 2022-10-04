@@ -344,6 +344,15 @@ footer.full {
 .footer-logo {
      width: 134px;
      height: 42px;
+     margin-top: 8%;
+     margin-left: 0px;
+     padding-right: 0px;
+}
+
+.social-logo {
+     margin-top: 8%;
+     margin-left: 14.75%;
+
 }
 
 .logo-item {
@@ -352,40 +361,44 @@ footer.full {
 }
 
 .imp-links {
-     display: flex; 
+     display: flex;
      margin-top: 8.5%;
+     margin-left: 10%;
      gap: 30px;
 }
-footer.top{
-    margin: 0;
+
+footer.top {
+     margin: 0;
 }
+
 .footer-top-container {
      display: flex;
-     justify-content: space-between;
-     width: 80%;
-     margin: 0% 10%;
+     width: 100%;
+     margin: 0% 7%;
 
 }
 
-.link-item{
+.link-item {
      display: flex;
      flex-direction: column;
      padding: 10px;
 
 }
-.link-item a{
+
+.link-item a {
      text-decoration: none;
 
 
-    
-}
-.link-item .heading{
-     color: #919496;
-     font-weight: 600;
-           font-size: 12px;
+
 }
 
-.link-item .link{
+.link-item .heading {
+     color: #919496;
+     font-weight: 600;
+     font-size: 12px;
+}
+
+.link-item .link {
      color: white;
 
 }
