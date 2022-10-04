@@ -351,30 +351,48 @@ footer.full {
 
 .social-logo {
      margin-top: 8%;
-     margin-left: 14.75%;
+     display: flex;
+     justify-content: space-between;
+     gap: 10px;
 
 }
 
 .logo-item {
      width: 50px;
      height: 50px;
+
+}
+
+.logo-item.hover {
+     display: none;
+     margin-left: -60px;
+}
+
+.logo-item.hover:hover {
+     display: block;
+}
+
+.logo-item:hover+.hover {
+     display: block;
 }
 
 .imp-links {
      display: flex;
      margin-top: 8.5%;
-     margin-left: 10%;
+     margin-left: 0%;
      gap: 30px;
 }
 
-footer.top {
+footer .top {
      margin: 0;
 }
 
 .footer-top-container {
      display: flex;
      width: 100%;
-     margin: 0% 7%;
+     justify-content: space-between;
+     padding: 0 7%;
+     box-sizing: border-box;
 
 }
 
@@ -401,4 +419,8 @@ footer.top {
 .link-item .link {
      color: white;
 
+}
+
+.link:hover {
+     color: #1ed760;
 }
